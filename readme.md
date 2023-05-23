@@ -51,7 +51,7 @@ Fill in prompts. This step is only needed if you want to test the admin site
  python3 manage.py runserver
  
 # URLs for sampling
-'http://127.0.0.1:8000/admin/' - admin site (need a superuser to access)
-'http://127.0.0.1:8000/providers/' - get a list of all providers
-'http://127.0.0.1:8000/providers/?active=true' - list active users
-'http://127.0.0.1:8000/providers/?first_name=Elisabetta&sex=Male' - list users with filters
+- 'http://127.0.0.1:8000/admin/' - admin site (need a superuser to access)
+- 'http://127.0.0.1:8000/providers/' - get a list of all providers
+- 'http://127.0.0.1:8000/providers/?active=true' - list active users
+- 'http://127.0.0.1:8000/providers/?first_name=Elisabetta&sex=Male' - list users with filters
