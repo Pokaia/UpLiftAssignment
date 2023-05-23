@@ -31,24 +31,24 @@ Please send either a zip of the code or a link to github/gitlab where they're st
 ## Instructions to run
 
 # Create a virtual environment
- python3 -m venv env
- source env/bin/activate
+    python3 -m venv env
+    source env/bin/activate
 
 # Install dependencies
- pip install -r requirements.txt
+    pip install -r requirements.txt
  
 # Create a superuser account
- python3 manage.py createsuperuser
+    python3 manage.py createsuperuser
 Fill in prompts. This step is only needed if you want to test the admin site
 
 # Load Test Data
- python3 managy.py loaddata providers/fixtures/testData.json
+    python3 managy.py loaddata providers/fixtures/testData.json
 
 # run tests
- python3 manage.py test
+    python3 manage.py test
 
 # run localserver
- python3 manage.py runserver
+    python3 manage.py runserver
  
 # URLs for sampling
 - 'http://127.0.0.1:8000/admin/' - admin site (need a superuser to access)
